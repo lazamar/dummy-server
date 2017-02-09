@@ -12,7 +12,7 @@ const requestSources = new Set();
 
 var server = function () {
     app.get("/", (req, res) => {
-        requestSources.add(req.ip);
+        requestSources.add(req.query.message);
         res.send(`Hello Automation! ${Array.from(requestSources.keys()).join()}`);
     });
 
