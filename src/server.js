@@ -2,9 +2,12 @@ const express = require("express");
 
 const app = express();
 
+const requestSources = new Set();
+
 export default function () {
     app.get("/", (req, res) => {
-        res.send("Hello Automation!");
+        requestSources.add(req.ip);
+        res.send(`Hello Automation! ${Array.from(requestSources.keys()).join()}`);
     });
 
     app.listen(8080, () => {
