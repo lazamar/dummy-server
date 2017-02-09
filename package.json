@@ -1,0 +1,21 @@
+{
+  "name": "dummy-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "author": "Marcelo Lazaroni <lazaronijunior@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1",
+    "gulp-organiser": "^1.0.6",
+    "gulp-flatmap": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.4.1",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-stream": "^1.19.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "gulp": "^3.9.1",
+    "lodash": "^4.17.4"
+  }
+}
