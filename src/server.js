@@ -4,7 +4,7 @@ const app = express();
 
 export default function () {
     app.get("/", (req, res) => {
-        res.send("Hello Yoyoyo!");
+        res.send("Hello Automation!");
     });
 
     app.listen(3000, () => {
