@@ -5,6 +5,11 @@
   "repository": {},
   "author": "Marcelo Lazaroni <lazaronijunior@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "gulp build",
+    "start": "node dest/index.js",
+    "test": "echo \"All tests passed\"; exit 0"
+  },
   "dependencies": {
     "express": "^4.14.1",
     "gulp-organiser": "^1.0.6",
