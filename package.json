@@ -18,9 +18,12 @@
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^2.4.1",
     "lodash": "^4.17.4",
+    "ramda": "^0.23.0",
+    "ramda-fantasy": "^0.7.0",
     "request": "^2.79.0",
     "rollup-plugin-replace": "^1.1.1",
     "rollup-stream": "^1.19.0",
+    "shell": "^0.3.2",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   }
