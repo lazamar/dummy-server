@@ -10,7 +10,7 @@ const requestSources = new Set();
 export default function () {
     app.get("/", (req, res) => {
         requestSources.add(req.query.message);
-        res.send(`Hello Automation! Are you working? ${Array.from(requestSources.keys()).join()}`);
+        res.send(`Hello Automation! ${Array.from(requestSources.keys()).join()}`);
     });
 
     app.get("/version", (req, res) => {
